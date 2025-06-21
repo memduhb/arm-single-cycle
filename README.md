@@ -33,14 +33,15 @@ Additional instructions beyond the base design:
 
 Key modules implemented in Verilog include:
 
-- `datapath.v` – Main datapath with ALU, register file, and memory interface
-- `alu.v` – Arithmetic Logic Unit
-- `control_unit.v` – Generates control signals based on opcode
-- `register_file.v` – 16-register bank with read/write support
-- `memory.v` – Simple synchronous memory
-- `mux*.v` – Multiplexers (2-to-1, 4-to-1, etc.)
+- `Datapath.v` – Main datapath with ALU, register file, and memory interface
+- `ALU.v` – Arithmetic Logic Unit
+- `Controller.v` – Generates control signals based on opcode
+- `Register_file.v` – 16-register bank with read/write support
+- `Memory.v` – Data memory
+- `Instruction_memory.v` - Instruction memory
+- `Mux*.v` – Multiplexers (2-to-1, 4-to-1, etc.)
 - `shifter.v` – Logical shift left/right unit
-- `top.v` – Top-level integration module
+- `MSSD.v` – seven segment display module for nexys a7 fpga board. 
 
 ---
 
