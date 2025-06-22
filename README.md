@@ -1,6 +1,6 @@
 # ARM Single-Cycle Processor (Verilog Implementation)
 
-This project is a Verilog implementation of an **ARM single-cycle processor**, based on the architecture described in *Harris & Harris's* _Digital Design and Computer Architecture_. It was developed as part of the **EE44** course at **Middle East Technical University (METU)**.
+This project is a Verilog implementation of an **ARM single-cycle processor**, based on the architecture described in *Harris & Harris's* _Digital Design and Computer Architecture_. It was developed as part of the **EE446** course at **Middle East Technical University (METU)**.
 
 ---
 
